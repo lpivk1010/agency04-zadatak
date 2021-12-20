@@ -1,0 +1,22 @@
+.contacts-page {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.titles {
+  width: 100%;
+  display: flex;
+}
+
+.contacts-title {
+  width: 50%;
+  text-align: center;
+}
+
+.contacts-page-content {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}

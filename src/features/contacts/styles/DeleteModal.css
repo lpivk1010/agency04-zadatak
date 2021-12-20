@@ -1,0 +1,49 @@
+.modal-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  /* min-height: calc(100vh); */
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container {
+  width: 700px;
+  height: 150px;
+  background-color: white;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.modal-buttons {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-button {
+  height: 40px;
+  width: 80px;
+  color: white;
+  font-weight: bold;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete {
+  background-color: rgb(184, 0, 0);
+}
+
+.close {
+  background-color: black;
+}

@@ -1,0 +1,27 @@
+.nav {
+  height: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+}
+
+.link {
+  color: white;
+}
+
+.other-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logout {
+  cursor: pointer;
+}
+
+.logo {
+  max-width: 80px;
+}

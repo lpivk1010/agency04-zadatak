@@ -1,0 +1,76 @@
+.single-page {
+  margin-top: 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.loader-single {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  color: white;
+  font-size: 120px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unfavorite {
+  width: 200px;
+}
+
+.edit-delete {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.options {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.details {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.detail-line {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  width: 400px;
+  margin: 10px 0;
+}
+
+.detail-label {
+  width: 45%;
+  text-align: right;
+}
+
+.detail {
+  width: 45%;
+  text-align: left;
+}
+
+.img {
+  cursor: pointer;
+}
